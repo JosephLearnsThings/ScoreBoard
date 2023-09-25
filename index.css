@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #1B244A;
+   
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background: #080001;
+    color: #F94F6D;
+    
+
+}
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 0em;
+                                                
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 16px
+
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px
+
+}
