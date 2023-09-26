@@ -11,20 +11,26 @@
                     <p class="score" id="home">0</p>
                 </div>
                 <div class="actions">
-                    <button onclick="addOneHome()">+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="incrementScore(1, 'home')">+1</button>
+                    <button onclick="incrementScore(2, 'home')">+2</button>
+                    <button onclick="incrementScore(3, 'home')">+3</button>
+                </div>
+                <div class="reset-container">
+                    <button class="reset" onclick="resetScore('home')">RESET</button>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
                  <div class="score-container">
-                    <p class="score" id ="guest">5</p>
+                    <p class="score" id ="guest">0</p>
                 </div>
                 <div class="actions">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="incrementScore(1, 'guest')">+1</button>
+                    <button onclick="incrementScore(2, 'guest')">+2</button>
+                    <button onclick="incrementScore(3, 'guest')">+3</button>
+                </div>
+                <div class="reset-container">
+                    <button class="reset" onclick="resetScore('guest')">RESET</button>
                 </div>
             </div>
         </div>
